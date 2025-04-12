@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HolaMundo.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            WidthRequest="300"
+            Margin="0,50,0,0"
+            Padding="30,0"
+            Spacing="25">
+            <Entry
+                x:Name="txtPass1"
+                Placeholder="Enter password"
+                TextChanged="OnTextChange"/>
+            <Entry
+                x:Name="txtPass2"
+                Placeholder="Confirm password"
+                TextChanged="OnTextChange"/>
+
+            <Button
+                x:Name="btnValidate"
+                Text="Validar"
+                SemanticProperties.Hint="Click to validate the passwords"
+                Clicked="OnValidateClick"
+                HorizontalOptions="Fill">
+            </Button >
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

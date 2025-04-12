@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <_PostProcessingItem Include="HolaMundo.app/Contents/MacOS/HolaMundo">
+      <IsAppExtension>false</IsAppExtension>
+      <BCSymbolMapName>HolaMundo.bcsymbolmap</BCSymbolMapName>
+      <NoDSymUtil>true</NoDSymUtil>
+      <dSYMSourcePathExists>false</dSYMSourcePathExists>
+      <NoSymbolStrip>true</NoSymbolStrip>
+      <dSYMInfoPlistRelativePath>HolaMundo.app.dSYM\Contents\Info.plist</dSYMInfoPlistRelativePath>
+      <SymbolFile>/Users/alopez/workspace/repos/mcap/mcap-ciber-infra/hola-mundo/HolaMundo/obj/Debug/net9.0-maccatalyst/maccatalyst-arm64/mtouch-symbols.list</SymbolFile>
+      <DSymName>HolaMundo.app.dSYM</DSymName>
+      <SourceProjectPath>/Users/alopez/workspace/repos/mcap/mcap-ciber-infra/hola-mundo/HolaMundo</SourceProjectPath>
+      <IsXPCService></IsXPCService>
+    </_PostProcessingItem>
+  </ItemGroup>
+</Project>
