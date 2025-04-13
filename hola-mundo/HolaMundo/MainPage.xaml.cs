@@ -59,7 +59,7 @@ public partial class MainPage : ContentPage
         if (string.IsNullOrWhiteSpace(password))
             return false;
 		
-		// The regex patter checks for at least one uppercase letter, one lowercase letter, one digit, and one special character
+		// The regex checks for at least one uppercase letter, one lowercase letter, one digit, and one special character
         string pattern = @"^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[\W_]).+$";
         return Regex.IsMatch(password, pattern);
     }
