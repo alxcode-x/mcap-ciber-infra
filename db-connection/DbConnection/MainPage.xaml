@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DbConnection.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            WidthRequest="370"
+            Margin="0,50,0,0"
+            Padding="30,0"
+            Spacing="25">
+
+            <HorizontalStackLayout Spacing="10">
+                <Label Text="Host"
+                       WidthRequest="100"
+                       VerticalOptions="Center"/>
+                <Entry x:Name="txtHost"
+                       WidthRequest="200"
+                       Placeholder="Enter host"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10">
+                <Label Text="Base de Datos"
+                       WidthRequest="100"
+                       VerticalOptions="Center"/>
+                <Entry x:Name="txtDbName"
+                       WidthRequest="200"
+                       Placeholder="Enter database name"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10">
+                <Label Text="Usuario"
+                       WidthRequest="100"
+                       VerticalOptions="Center"/>
+                <Entry x:Name="txtUser"
+                       WidthRequest="200"
+                       Placeholder="Enter username"/>
+            </HorizontalStackLayout>
+
+            <HorizontalStackLayout Spacing="10">
+                <Label Text="Contraseña"
+                       WidthRequest="100"
+                       VerticalOptions="Center"/>
+                <Entry x:Name="txtPass"
+                       WidthRequest="200"
+                       Placeholder="Enter password"
+                       IsPassword="True"/>
+            </HorizontalStackLayout>
+
+            <Button
+                x:Name="conectBtn"
+                Margin="0,25,0,0"
+                Text="Conectar"
+                Clicked="OnConnectClicked"
+                HorizontalOptions="Fill"/>
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
