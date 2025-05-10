@@ -10,15 +10,19 @@ Test API with ASP.NET Core.
 ### Demo
 
 1. Get all items:
-![App demo](./evidences/get-1)
+
+![App demo](./evidences/get-1.png)
 
 2. Create new item:
+
 ![App demo](./evidences/post.png)
 
 3. Get all including created item:
+
 ![App demo](./evidences/get-2.png)
 
 4. Get item by id:
+
 ![App demo](./evidences/get-id.png)
 
 
